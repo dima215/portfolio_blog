@@ -21,6 +21,12 @@ body {
     padding: 0 15px;
 }
 
+.container-small{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .row {
     display: flex;
     height: 100%;
@@ -251,6 +257,11 @@ body {
 .col-md-5 {
     flex: 0 0 41.6667%;
     max-width: 41.6667%;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .col-md-7 {
@@ -533,12 +544,152 @@ body {
     background-color: rgba(226, 225, 214, 1);
 }
 
-.button.button_label{
-    
-        width: 112px;
+.button.button_label {
+
+    width: 112px;
 }
-.button.button_label>a{
-font-family: "Roboto";
-font-size: 13px;
-line-height: 45px;
+
+.button.button_label>a {
+    font-family: "Roboto";
+    font-size: 13px;
+    line-height: 45px;
+}
+
+.tips{
+    margin: 0 -10px;
+    background-color: rgb(89, 190, 132);
+        padding: 20px 20px 15px;
+}
+.tips-img{
+    text-align: center;
+}
+.tips>h3{
+    text-align: center;
+    font-family: "Merriweather";
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    margin: 10px 0;
+}
+
+.tips>ul{
+    list-style: disc;
+}
+.tips li{
+    font-family: "Roboto";
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 10px 14px;
+    line-height: 20px;
+}
+
+.about{
+        font-family: "Roboto";
+        color: rgb(98, 98, 98);
+        font-size: 13px;
+}
+
+.about>h3{
+    font-family: "Merriweather";
+    color: rgb(143, 115, 86);
+        font-size: 21px;
+        font-weight: 300;
+        letter-spacing: 0px;
+        margin-bottom: 15px;
+}
+
+.about>h4{
+        font-family: "Roboto";
+    color: rgb(98, 98, 98);
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+}
+
+.about>p{
+        font-size: 13px;
+        line-height: 21px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+}
+
+.about>a{
+        color: #59be84;
+        text-decoration: none;
+        margin-bottom: 40px;
+}
+
+.about>a:hover{
+    text-decoration: underline;
+}
+
+.margin{
+    margin: 0 -5px;
+}
+.row.gallery-img {
+    flex-wrap: wrap;
+    margin:-5px;
+}
+.margin-top{
+    margin: 5px 0;
+}
+
+.gallery{
+        font-family: "Merriweather";
+color: rgb(143, 115, 86);
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+
+.gallery-img-item{
+    height: 10vw;
+    margin: 0 -10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 11vw;
+    transition: 300ms;
+}
+
+.gallery-img-item:hover{
+    background-position: bottom;
+        transition: 300ms;
+        opacity: .8;
+
+}
+
+.gallery-img-item>a{
+    height: 100%;
+    display: block;
+}
+
+.image1{
+    background-image: url(img/home_recipes_gallery1-300x300.jpg);
+}
+
+.image2 {
+    background-image: url(img/home_recipes_gallery5-300x300.jpg);
+}
+
+.image3 {
+    background-image: url(img/home_recipes_gallery6-300x300.jpg);
+}
+
+.image4 {
+    background-image: url(img/home_recipes_gallery7-300x300.jpg);
+}
+
+.image5 {
+    background-image: url(img/home_recipes_gallery8-300x300.jpg);
+}
+
+.image6 {
+    background-image: url(img/home_recipes_gallery9-300x300.jpg);
 }
