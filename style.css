@@ -650,11 +650,11 @@ color: rgb(143, 115, 86);
 }
 
 .gallery-img-item{
-    height: 10vw;
+    height: 7vw;
     margin: 0 -10px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 11vw;
+    background-size: 8vw;
     transition: 300ms;
 }
 
