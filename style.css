@@ -786,6 +786,6 @@ footer>h4>a{
     
         color: rgb(249, 241, 226);
 }
-.footer>h4>a:hover{
+footer>h4>a:hover{
     text-decoration: underline;
 }
